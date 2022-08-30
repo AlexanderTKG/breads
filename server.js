@@ -40,6 +40,7 @@ app.get('*', (req, res) => {
 
 // LISTEN
 app.listen(PORT, () => {
+  console.log('localhost:3003')
   console.log('listening on port', PORT);
 })
 
